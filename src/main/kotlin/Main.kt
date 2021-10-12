@@ -1,9 +1,8 @@
-fun main() {
-    val name = "Nora"
-    var healthPoints = 100
-    if (healthPoints == 100) {
-        println(name + " is in excellent condition!")
-    } else {
-        println(name + " is in awful condition!")
-    }
+const val apple =50
+fun main(args: Array<String>) {
+
+  var dozon=  apple/ 12
+    var remain = apple % 12
+    println("we have ${dozon} dozon of apple " +"\n"+ "the remain apple is ${remain}")
+
 }
